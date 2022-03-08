@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pickypicks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PickyPicks">
+        <activity
+            android:name=".activity.catharsis.CollaborationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.EditionActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.EditionActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.EditionActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.EditionActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.ChapterActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.ChapterActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.ChapterActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.ChapterActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.catharsis.ChapterActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.terserah.TerserahActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.terserah.TerserahActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.terserah.TerserahActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.terserah.TerserahActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.bantu.BantuActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.challenges.ChallengeActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.challenges.ChallengeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.vlog.VlogActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.gaming.GamingActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.gaming.GamingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.reactions.ReactActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PickyActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PickyActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PickyActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PickyActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.TerserahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.BantuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.ChallengeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.VlogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.MotorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.MobilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.GamingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.youtube.ReactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OnixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RucasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CatharsisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PickyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
